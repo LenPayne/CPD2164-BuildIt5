@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BFFE3EE11A1A7E03002D4B02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EE01A1A7E03002D4B02 /* main.m */; };
+		BFFE3EE91A1A7E72002D4B02 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EE81A1A7E72002D4B02 /* Person.m */; };
+		BFFE3EEC1A1A7EB4002D4B02 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EEB1A1A7EB4002D4B02 /* Employee.m */; };
+		BFFE3EEF1A1A7FCE002D4B02 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EEE1A1A7FCE002D4B02 /* Worker.m */; };
+		BFFE3EF21A1A8013002D4B02 /* Workstation.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EF11A1A8013002D4B02 /* Workstation.m */; };
+		BFFE3EF51A1A8090002D4B02 /* Office.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFE3EF41A1A8090002D4B02 /* Office.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		BFFE3EDD1A1A7E03002D4B02 /* CPD2164-BuildIt5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CPD2164-BuildIt5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFFE3EE01A1A7E03002D4B02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFFE3EE71A1A7E72002D4B02 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BFFE3EE81A1A7E72002D4B02 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BFFE3EEA1A1A7EB4002D4B02 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		BFFE3EEB1A1A7EB4002D4B02 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		BFFE3EED1A1A7FCE002D4B02 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
+		BFFE3EEE1A1A7FCE002D4B02 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		BFFE3EF01A1A8013002D4B02 /* Workstation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workstation.h; sourceTree = "<group>"; };
+		BFFE3EF11A1A8013002D4B02 /* Workstation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workstation.m; sourceTree = "<group>"; };
+		BFFE3EF31A1A8090002D4B02 /* Office.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Office.h; sourceTree = "<group>"; };
+		BFFE3EF41A1A8090002D4B02 /* Office.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Office.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				BFFE3EE01A1A7E03002D4B02 /* main.m */,
+				BFFE3EE71A1A7E72002D4B02 /* Person.h */,
+				BFFE3EE81A1A7E72002D4B02 /* Person.m */,
+				BFFE3EEA1A1A7EB4002D4B02 /* Employee.h */,
+				BFFE3EEB1A1A7EB4002D4B02 /* Employee.m */,
+				BFFE3EED1A1A7FCE002D4B02 /* Worker.h */,
+				BFFE3EEE1A1A7FCE002D4B02 /* Worker.m */,
+				BFFE3EF01A1A8013002D4B02 /* Workstation.h */,
+				BFFE3EF11A1A8013002D4B02 /* Workstation.m */,
+				BFFE3EF31A1A8090002D4B02 /* Office.h */,
+				BFFE3EF41A1A8090002D4B02 /* Office.m */,
 			);
 			path = "CPD2164-BuildIt5";
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFE3EEC1A1A7EB4002D4B02 /* Employee.m in Sources */,
+				BFFE3EF21A1A8013002D4B02 /* Workstation.m in Sources */,
+				BFFE3EEF1A1A7FCE002D4B02 /* Worker.m in Sources */,
+				BFFE3EF51A1A8090002D4B02 /* Office.m in Sources */,
+				BFFE3EE91A1A7E72002D4B02 /* Person.m in Sources */,
 				BFFE3EE11A1A7E03002D4B02 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
